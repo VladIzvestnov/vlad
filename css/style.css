@@ -1,0 +1,65 @@
+@font-face {
+    font-family:f1 ;
+    src: url(../fonts/matterhorn-rus-by-me.otf);
+}
+
+body{
+    background-image: linear-gradient(45deg , red,rgb(0, 247, 255),rgb(48, 219, 48));
+    height: 100vh;
+}
+p{
+text-align: center;
+text-transform: uppercase;
+font-size: 45px;
+color: rgb(255, 0, 0);
+text-shadow: 1px 1px 0 #123;
+animation: anim 2s linear infinite;
+font-family: f1;
+}
+@keyframes anim{
+0%{color: blue;}
+
+20%{color: burlywood;}
+40%{color: aqua;}
+60%{color: blueviolet;}
+80% {color: chartreuse;}
+100%{color: red;} 
+
+}
+
+img{
+width: 200px;
+height: 200px;
+display: block;
+margin: 0 auto;
+border-radius: 50%;
+transition: 2s;
+}
+div{
+border: 5px dotted #fff;
+width: 800px;
+text-align: center;
+margin: 10px auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+animation: anim 5s linear infinite;
+}
+img:hover{
+transform: rotate(360deg);
+opacity: 0.5;
+transition: 1s;
+}
+span{
+position: absolute;
+top: 81px;
+left: 6%;
+color: rgb(0, 234, 255);
+font-size: 30px;
+text-shadow: 1px 1px 0 0 black;
+font-family: f1;
+}
+section{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
